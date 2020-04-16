@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=System Monitor
+Comment=System Monitor - Gtop
+GenericName=System Monitor
+Exec=xfce4-terminal -e "gtop --percpu"
+Icon=utilities-system-monitor
+Terminal=false
+StartupNotify=true
+Type=Application
+Categories=System;Utility;
+Path=
