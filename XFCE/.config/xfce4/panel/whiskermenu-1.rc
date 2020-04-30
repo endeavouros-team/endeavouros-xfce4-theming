@@ -1,19 +1,20 @@
-favorites=exo-terminal-emulator.desktop,firefox.desktop,xfce-settings-manager.desktop,ristretto.desktop,org.xfce.Parole.desktop,pavucontrol.desktop,xfce4-taskmanager.desktop,Thunar.desktop
-recent=
-button-title=EndeavourOS
+favorites=firefox.desktop,xfce4-terminal.desktop,ristretto.desktop,org.xfce.Parole.desktop,epdfview.desktop,galculator.desktop,thunar.desktop,xfce4-taskmanager.desktop,xfce-settings-manager.desktop,pavucontrol.desktop,eos-log-tool.desktop,welcome.desktop
+recent=thunar.desktop,xfce4-taskmanager.desktop,xfce4-terminal.desktop
+button-title=EndeavourOS\ \ 
 button-icon=/usr/share/endeavouros/EndeavourOS-icon.png
 button-single-row=false
 show-button-title=true
 show-button-icon=true
 launcher-show-name=true
-launcher-show-description=true
+launcher-show-description=false
 launcher-show-tooltip=true
 item-icon-size=2
 hover-switch-category=false
 category-show-name=true
 category-icon-size=1
 load-hierarchy=false
-recent-items-max=5
+view-as-icons=true
+recent-items-max=6
 favorites-in-recent=true
 display-recent-default=false
 position-search-alternate=true
@@ -21,9 +22,9 @@ position-commands-alternate=true
 position-categories-alternate=true
 stay-on-focus-out=false
 confirm-session-command=true
-menu-width=592
-menu-height=428
-menu-opacity=100
+menu-width=590
+menu-height=451
+menu-opacity=97
 command-settings=xfce4-settings-manager
 show-command-settings=true
 command-lockscreen=xflock4
@@ -37,16 +38,16 @@ show-command-restart=false
 command-shutdown=xfce4-session-logout --halt --fast
 show-command-shutdown=false
 command-suspend=xfce4-session-logout --suspend
-show-command-suspend=false
+show-command-suspend=true
 command-hibernate=xfce4-session-logout --hibernate
-show-command-hibernate=false
+show-command-hibernate=true
 command-logout=xfce4-session-logout
 show-command-logout=true
 command-menueditor=menulibre
 show-command-menueditor=false
 command-profile=mugshot
-show-command-profile=false
-search-actions=5
+show-command-profile=true
+search-actions=6
 
 [action0]
 name=Man Pages
@@ -78,3 +79,20 @@ pattern=^(file|http|https):\\/\\/(.*)$
 command=exo-open \\0
 regex=true
 
+[action5]
+name=EndeavourOS Forum
+pattern=forum
+command=firefox https://forum.endeavouros.com
+regex=false
+
+[action6]
+name=EndeavourOS Forum
+pattern=help
+command=firefox https://forum.endeavouros.com
+regex=false
+
+[action7]
+name=EndeavourOS Info
+pattern=endeavouros
+command=firefox https://endeavouros.com
+regex=false

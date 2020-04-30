@@ -59,8 +59,7 @@
       <property name="square-icons" type="bool" value="true"/>
       <property name="names-ordered" type="array">
         <value type="string" value="taskmanager"/>
-        <value type="string" value="kalu"/>
-        <value type="string" value="netzwerk-manager-applet"/>
+        <value type="string" value="network-manager-applet"/>
       </property>
     </property>
     <property name="plugin-8" type="string" value="pulseaudio">
