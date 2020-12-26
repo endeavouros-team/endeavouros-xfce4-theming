@@ -1,6 +1,5 @@
 xfce4
 mousepad
-orage
 parole
 ristretto
 thunar-archive-plugin
@@ -20,7 +19,7 @@ xfce4-whiskermenu-plugin
 xfce4-xkb-plugin
 file-roller
 network-manager-applet
-leafpad
+xed
 epdfview
 galculator
 blueberry
@@ -34,3 +33,4 @@ gnome-packagekit
 endeavouros-xfce4-terminal-colors
 xdg-user-dirs-gtk
 qt5ct
+seahorse
