@@ -7,3 +7,4 @@ Original EndeavourOS XFCE4 Theming
 
 `sh xfce.sh`
 
+![XFCE4 Screenshot](https://raw.githubusercontent.com/endeavouros-team/screenshots/master/eos-01-21-xfce4.png "XFCE4 Screenshot")
