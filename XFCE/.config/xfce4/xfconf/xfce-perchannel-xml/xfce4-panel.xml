@@ -61,9 +61,7 @@
         <value type="string" value="taskmanager"/>
         <value type="string" value="network-manager-applet"/>
       </property>
-      <property name="symbolic-icons" type="bool" value="false"/>
       <property name="icon-size" type="int" value="0"/>
-      <property name="menu-is-primary" type="bool" value="true"/>
     </property>
     <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
