@@ -26,9 +26,9 @@ blueberry
 lightdm
 lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
+arc-gtk-theme-eos
 arc-x-icons-theme
 capitaine-cursors
-arc-gtk-theme
 gnome-packagekit
 endeavouros-xfce4-terminal-colors
 xdg-user-dirs-gtk
