@@ -21,8 +21,6 @@ file-roller
 gvfs
 gvfs-mtp
 gvfs-afc
-gvfs-goa
-gvfs-google
 gvfs-gphoto2
 gvfs-nfs
 gvfs-smb
@@ -39,5 +37,4 @@ arc-x-icons-theme
 capitaine-cursors
 endeavouros-xfce4-terminal-colors
 xdg-user-dirs-gtk
-seahorse
 meld
