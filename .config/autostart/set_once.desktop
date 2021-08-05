@@ -1,0 +1,12 @@
+
+[Desktop Entry]
+Version=1.0
+Name=set_once
+Exec=~/set_once.sh
+Icon=setup
+Terminal=true
+Type=Application
+Categories=Utility;
+StartupNotify=true
+Hidden=true
+X-GNOME-Autostart-enabled=false
