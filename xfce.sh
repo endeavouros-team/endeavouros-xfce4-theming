@@ -1,12 +1,12 @@
 #bin/bash
 
-echo "******* Installing EndeavourOS Theming for XFCE4 *******"
+echo "******* Installing EndeavourOS Theming for XFCE4 NEXT*******"
 
 echo "******* cloning dotfiles for EndeavourOS - XFCE4 Theming *******" && sleep 1
-    wget https://raw.githubusercontent.com/endeavouros-team/endeavouros-xfce4-theming/master/dconf/mousepad.dconf
-    dbus-launch dconf load / < mousepad.dconf
-    rm mousepad.dconf
-    git clone https://github.com/endeavouros-team/endeavouros-xfce4-theming.git
+    wget https://raw.githubusercontent.com/endeavouros-team/endeavouros-xfce4-theming/next/xed.dconf
+    dbus-launch dconf load / < xed.dconf
+    rm xed.dconf
+    git clone -b next --single-branch https://github.com/endeavouros-team/endeavouros-xfce4-theming.git
     cd endeavouros-xfce4-theming
 
 echo "******* Getting theme packages installed now: *******" && sleep 1
