@@ -1,6 +1,8 @@
 # endeavouros-xfce4-theming
 NEXT EndeavourOS XFCE4 Theming
 
+[![Maintenance](https://img.shields.io/maintenance/yes/2021.svg)]()
+
 `git clone -b next --single-branch https://github.com/endeavouros-team/endeavouros-xfce4-theming`
 
 `cd endeavouros-xfce4-theming`
