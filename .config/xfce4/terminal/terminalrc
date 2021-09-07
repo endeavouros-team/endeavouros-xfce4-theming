@@ -39,3 +39,4 @@ TabActivityColor=#47B35D
 ColorCursorUseDefault=FALSE
 ColorBoldIsBright=FALSE
 ColorSelectionUseDefault=TRUE
+ScrollingUnlimited=TRUE
