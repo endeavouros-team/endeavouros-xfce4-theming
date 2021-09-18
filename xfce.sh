@@ -19,8 +19,10 @@ echo "******* setting up theme for Light-DM: *******" && sleep 1
     sudo systemctl -f enable lightdm
 
     rm -rf ~/.config/Thunar ~/.config/qt5ct ~/.config/xfce4 ~/.cache
-    cp -R XFCE/. ~/
-    cp XFCE/.config/user-dirs.conf ~/.config/
+    cp .nanorc ~/
+    cp mousepad.dconf ~/
+    cp set_once.sh ~/
+    cp .config/* ~/.config/ -r
     cd ..
     rm -rf endeavouros-xfce4-theming 
 
@@ -33,7 +35,3 @@ echo "******* Please login again and enjoy EndeavourOS Theming! *******"
         --button="Restart System":0
 
     sudo systemctl reboot
-
-}
-
-Main "$@"
