@@ -1,26 +1,22 @@
 #bin/bash
 
-echo "******* Installing EndeavourOS Theming for XFCE4 NEXT*******"
+echo "******* Installing EndeavourOS Theming for XFCE4*******"
 
 echo "******* cloning dotfiles for EndeavourOS - XFCE4 Theming *******" && sleep 1
-    wget https://raw.githubusercontent.com/endeavouros-team/endeavouros-xfce4-theming/next/xed.dconf
-    dbus-launch dconf load / < xed.dconf
-    rm xed.dconf
     git clone -b next --single-branch https://github.com/endeavouros-team/endeavouros-xfce4-theming.git
     cd endeavouros-xfce4-theming
-
 echo "******* Getting theme packages installed now: *******" && sleep 1
     sudo pacman -S --noconfirm --needed - < xfce4-packages-list
 
 echo "******* setting up theme for Light-DM: *******" && sleep 1
-    wget -q --timeout=10 https://github.com/endeavouros-team/EndeavourOS-archiso/raw/master/airootfs/etc/lightdm/lightdm-gtk-greeter.conf
-        sudo cp  lightdm-gtk-greeter.conf /etc/lightdm/
-        rm lightdm-gtk-greeter.conf
-        sudo systemctl -f enable lightdm
-
+    wget -q --timeout=10 https://raw.githubusercontent.com/endeavouros-team/EndeavourOS-iso-next/main/airootfs/etc/lightdm/lightdm-gtk-greeter.conf
+    sudo cp  lightdm-gtk-greeter.conf /etc/lightdm/
+    sudo systemctl -f enable lightdm
+      
+echo "******* setting up xfce4 theme and settings: *******" && sleep 1
+    dbus-launch dconf load / < xed.dconf
     rm -rf ~/.config/Thunar ~/.config/qt5ct ~/.config/xfce4 ~/.cache
-    cp -R XFCE/. ~/
-    cp XFCE/.config/user-dirs.conf ~/.config/
+    cp -R .config/ ~/
     cd ..
     rm -rf endeavouros-xfce4-theming 
 
