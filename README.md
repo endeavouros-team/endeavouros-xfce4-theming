@@ -1,5 +1,5 @@
 # endeavouros-xfce4-theming
-NEXT EndeavourOS XFCE4 Theming
+EndeavourOS XFCE4 Theming
 
 [![Maintenance](https://img.shields.io/maintenance/yes/2021.svg)]()
 
