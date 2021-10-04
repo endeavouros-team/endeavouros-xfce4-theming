@@ -17,4 +17,8 @@ EndeavourOS XFCE4 Theming
 
 `sudo systemctl reboot`
 
+or if you are really lazy use the script:
+
+`wget https://raw.githubusercontent.com/endeavouros-team/endeavouros-xfce4-theming/master/xfce.sh && ./xfce.sh`
+
 ![XFCE4 Screenshot](https://raw.githubusercontent.com/endeavouros-team/screenshots/master/eos-01-21-xfce4.png "XFCE4 Screenshot")
