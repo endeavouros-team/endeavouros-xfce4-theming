@@ -6,7 +6,7 @@ echo "******* cloning dotfiles for EndeavourOS - XFCE4 Theming *******" && sleep
     git clone https://github.com/endeavouros-team/endeavouros-xfce4-theming.git
     cd endeavouros-xfce4-theming
 echo "******* Getting theme and packages installed now: *******" && sleep 1
-    wget -q --timeout=10https://raw.githubusercontent.com/endeavouros-team/EndeavourOS-packages-lists/master/xfce4
+    wget -q --timeout=10 https://raw.githubusercontent.com/endeavouros-team/EndeavourOS-packages-lists/master/xfce4
     sudo pacman -S --noconfirm --needed - < xfce4
 
 echo "******* setting up theme for Light-DM: *******" && sleep 1
