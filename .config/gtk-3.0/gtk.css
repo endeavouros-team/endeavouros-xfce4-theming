@@ -15,3 +15,7 @@ window#whiskermenu-window treeview>* {
 #xfce4-power-manager-plugin image {
 	-gtk-icon-transform: scale(0.75);
 }
+
+VteTerminal, vte-terminal {
+    padding: 13px;
+}
