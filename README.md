@@ -11,6 +11,8 @@ EndeavourOS XFCE4 Theming
 
 `rm -rf ~/.config/Thunar ~/.config/qt5ct ~/.config/xfce4 ~/.cache`
 
+`cp .Xresources ~/.Xresources`
+
 `cp -R .config/ ~/`
 
 `dbus-launch dconf load / < xed.dconf`
