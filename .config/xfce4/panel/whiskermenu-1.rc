@@ -1,4 +1,4 @@
-favorites=firefox.desktop,xfce4-terminal.desktop,ristretto.desktop,org.xfce.Parole.desktop,epdfview.desktop,galculator.desktop,thunar.desktop,xfce4-taskmanager.desktop,xfce-settings-manager.desktop,pavucontrol.desktop,eos-log-tool.desktop,welcome.desktop
+favorites=firefox.desktop,eos-quickstart.desktop,xfce4-terminal.desktop,ristretto.desktop,org.xfce.Parole.desktop,epdfview.desktop,galculator.desktop,thunar.desktop,xfce4-taskmanager.desktop,xfce-settings-manager.desktop,pavucontrol.desktop,eos-log-tool.desktop,welcome.desktop
 recent=thunar.desktop,xfce4-taskmanager.desktop,xfce4-terminal.desktop
 button-title=EndeavourOS\ \ 
 button-icon=/usr/share/endeavouros/EndeavourOS-icon.png
