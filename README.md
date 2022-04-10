@@ -25,4 +25,4 @@ or if you are really lazy use the script:
 
 `sh ./xfce.sh`
 
-![XFCE4 Screenshot](https://raw.githubusercontent.com/endeavouros-team/screenshots/master/eos-01-21-xfce4.png "XFCE4 Screenshot")
+![XFCE4 Screenshot](https://raw.githubusercontent.com/endeavouros-team/screenshots/master/endeavouros-xfce4-apollo.png "XFCE4 Screenshot")
