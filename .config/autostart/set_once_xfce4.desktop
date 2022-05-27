@@ -5,7 +5,6 @@ Type=Application
 Name=set_once
 Comment=set up xed once
 Exec=sh -c ~/set_once_xfce4.sh
-OnlyShowIn=XFCE;
 RunHook=0
 StartupNotify=false
 Terminal=false
