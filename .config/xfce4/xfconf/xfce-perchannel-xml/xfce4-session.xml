@@ -3,7 +3,7 @@
 <channel name="xfce4-session" version="1.0">
   <property name="general" type="empty">
     <property name="FailsafeSessionName" type="empty"/>
-    <property name="LockCommand" type="string" value="light-locker-command --lock"/>
+    <property name="LockCommand" type="empty"/>
     <property name="SessionName" type="string" value="Default"/>
     <property name="SaveOnExit" type="bool" value="false"/>
   </property>
