@@ -82,17 +82,17 @@ regex=true
 [action5]
 name=EndeavourOS Forum
 pattern=forum
-command=WebBrowser https://forum.endeavouros.com
+command=exo-open --launch WebBrowser ttps://forum.endeavouros.com
 regex=false
 
 [action6]
 name=EndeavourOS Help
 pattern=help
-command=WebBrowser https://forum.endeavouros.com
+command=exo-open --launch WebBrowser https://forum.endeavouros.com
 regex=false
 
 [action7]
 name=EndeavourOS Info
 pattern=endeavouros
-command=WebBrowser https://endeavouros.com
+command=exo-open --launch WebBrowser https://endeavouros.com
 regex=false
