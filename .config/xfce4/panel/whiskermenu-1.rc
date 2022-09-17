@@ -82,17 +82,17 @@ regex=true
 [action5]
 name=EndeavourOS Forum
 pattern=forum
-command=firefox https://forum.endeavouros.com
+command=WebBrowser https://forum.endeavouros.com
 regex=false
 
 [action6]
-name=EndeavourOS Forum
+name=EndeavourOS Help
 pattern=help
-command=firefox https://forum.endeavouros.com
+command=WebBrowser https://forum.endeavouros.com
 regex=false
 
 [action7]
 name=EndeavourOS Info
 pattern=endeavouros
-command=firefox https://endeavouros.com
+command=WebBrowser https://endeavouros.com
 regex=false
