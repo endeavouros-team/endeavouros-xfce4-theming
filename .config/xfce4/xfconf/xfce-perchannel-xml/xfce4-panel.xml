@@ -34,10 +34,10 @@
       </property>
       <property name="background-style" type="uint" value="1"/>
       <property name="background-rgba" type="array">
-        <value type="double" value="0.15686274509803921"/>
-        <value type="double" value="0.26274509803921553"/>
-        <value type="double" value="0.45490196078431372"/>
-        <value type="double" value="0.91814946619217086"/>
+        <value type="double" value="0.13333333333333333"/>
+        <value type="double" value="0.098039215686274536"/>
+        <value type="double" value="0.24313725490196078"/>
+        <value type="double" value="0.90035587188612098"/>
       </property>
     </property>
   </property>
