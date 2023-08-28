@@ -1,7 +1,7 @@
 # endeavouros-xfce4-theming
 [![Maintenance](https://img.shields.io/maintenance/yes/2023.svg)](https://github.com/endeavouros-team)
 
-![XFCE4 Screenshot](https://raw.githubusercontent.com/endeavouros-team/screenshots/master/endeavouros-xfce4-apollo.png "XFCE4 Screenshot")
+![XFCE4 Screenshot](https://raw.githubusercontent.com/endeavouros-team/screenshots/master/xfce4-screenshot-galileo.png "XFCE4 Screenshot")
 The EndeavourOS XFCE4 Theming.
 
 
