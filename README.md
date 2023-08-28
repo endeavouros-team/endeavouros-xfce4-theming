@@ -10,17 +10,18 @@ The EndeavourOS XFCE4 Theming.
 ### Manually
 `git clone https://github.com/endeavouros-team/endeavouros-xfce4-theming`
 
-`cd endeavouros-xfce4-theming`
+`cd endeavouros-xfce4-theming/etc/skel/`
 
-`rm -rf ~/.config/Thunar ~/.config/qt5ct ~/.config/xfce4 ~/.cache`
+`rm -rf ~/.config/xfce4 ~/.cache`
 
 `cp .Xresources ~/.Xresources`
 
+`cp .face ~/.face`
+
 `cp -R .config/ ~/`
 
-`dbus-launch dconf load / < xed.dconf`
-
 `sudo systemctl reboot`
+
 ### Via the Script
 or if you are really lazy use the script:
 

@@ -24,10 +24,13 @@ echo "******* enable lightdm to be used on boot *******" && sleep 1
     sudo systemctl -f enable lightdm
       
 echo "******* setting up xfce4 theme and settings: *******" && sleep 1
-    rm -rf ~/.config/Thunar ~/.config/qt5ct ~/.config/xfce4 ~/.cache
+    cd "etc/skel/"
+    rm -rf ~/.config/xfce4 ~/.cache
     cp .Xresources ~/.Xresources
+    cp .face ~/.face
     cp -R .config/ ~/
-    dbus-launch dconf load / < xed.dconf
+    cd ..
+    cd ..
     cd ..
     rm -rf endeavouros-xfce4-theming 
 
