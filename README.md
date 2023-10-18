@@ -1,7 +1,7 @@
 # endeavouros-xfce4-theming
 [![Maintenance](https://img.shields.io/maintenance/yes/2023.svg)](https://github.com/endeavouros-team)
 
-![XFCE4 Screenshot](https://raw.githubusercontent.com/endeavouros-team/screenshots/master/endeavouros-xfce4-apollo.png "XFCE4 Screenshot")
+![XFCE4 Screenshot](https://raw.githubusercontent.com/endeavouros-team/screenshots/master/xfce4-screenshot-galileo.png "XFCE4 Screenshot")
 The EndeavourOS XFCE4 Theming.
 
 
@@ -10,17 +10,18 @@ The EndeavourOS XFCE4 Theming.
 ### Manually
 `git clone https://github.com/endeavouros-team/endeavouros-xfce4-theming`
 
-`cd endeavouros-xfce4-theming`
+`cd endeavouros-xfce4-theming/etc/skel/`
 
-`rm -rf ~/.config/Thunar ~/.config/qt5ct ~/.config/xfce4 ~/.cache`
+`rm -rf ~/.config/xfce4 ~/.cache`
 
 `cp .Xresources ~/.Xresources`
 
+`cp .face ~/.face`
+
 `cp -R .config/ ~/`
 
-`dbus-launch dconf load / < xed.dconf`
-
 `sudo systemctl reboot`
+
 ### Via the Script
 or if you are really lazy use the script:
 
