@@ -5,7 +5,7 @@
 The EndeavourOS XFCE4 Theming.
 
 
-## Installation:
+## EndeavourOS Theme for XFCE4 Installation:
 
 ### Quick Install
 If you are really lazy, use the script:
