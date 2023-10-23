@@ -10,11 +10,16 @@ The EndeavourOS XFCE4 Theming.
 ### Quick Install
 If you are really lazy, use the script:
 
+(this will overwrite existing setup for the current user)
+
 `wget https://raw.githubusercontent.com/endeavouros-team/endeavouros-xfce4-theming/master/xfce.sh`
 
 `sh ./xfce.sh`
 
 ### Installing Manually
+
+(this will overwrite existing setup for the current user)
+
 `git clone https://github.com/endeavouros-team/endeavouros-xfce4-theming`
 
 `cd endeavouros-xfce4-theming/etc/skel/`
